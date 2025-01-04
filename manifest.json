@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "New Tab Quote Generator",
+    "version": "1.0",
+    "description": "Displays a random quote every time you open a new tab.",
+    "host_permissions": [
+      "https://api.api-ninjas.com/*"
+    ],
+    "permissions": [
+      "activeTab"
+    ],
+    "chrome_url_overrides": {
+      "newtab": "popup.html"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
